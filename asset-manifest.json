@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/trello-deploy/static/css/main.16581c35.css",
+    "main.js": "/trello-deploy/static/js/main.8ddad21c.js",
+    "static/media/left.png": "/trello-deploy/static/media/left.d9831540be3979a9ff95.png",
+    "static/media/right.png": "/trello-deploy/static/media/right.0feee352eff4517951de.png",
+    "static/media/repeat.svg": "/trello-deploy/static/media/repeat.ad89745e0d1258153e571b9c68c7fc87.svg",
+    "static/media/logo.svg": "/trello-deploy/static/media/logo.646c8b99624e42f5402d749bb5119a12.svg",
+    "static/media/box.svg": "/trello-deploy/static/media/box.5a5de369fbbd52ca4d9ddc84879528ab.svg",
+    "static/media/star.svg": "/trello-deploy/static/media/star.cf091e2ca9f6d62670ee938d5e9faf99.svg",
+    "index.html": "/trello-deploy/index.html",
+    "static/media/delet.svg": "/trello-deploy/static/media/delet.587d12c56dff0cc13037bd03e6e923b9.svg",
+    "static/media/pen.svg": "/trello-deploy/static/media/pen.3de72cd2252345d39d6d5f565652363d.svg",
+    "static/media/cancel.svg": "/trello-deploy/static/media/cancel.2001e956d267bc9b1a2349ee0a8ee521.svg",
+    "main.16581c35.css.map": "/trello-deploy/static/css/main.16581c35.css.map",
+    "main.8ddad21c.js.map": "/trello-deploy/static/js/main.8ddad21c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16581c35.css",
+    "static/js/main.8ddad21c.js"
+  ]
+}
