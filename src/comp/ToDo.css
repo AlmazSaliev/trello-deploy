@@ -1,0 +1,223 @@
+.todo input{
+    width: 260px;
+    height: 25px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 5px 0px 5px 15px;
+    font-size: 15px;
+}
+.todo{
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    background: rgb(211, 211, 211);
+}
+.todo-btn-all{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    width: 200px;
+    position: relative;
+}
+.todo-btn{
+    background-color: #0079bf;
+    
+    border: none;
+    width: 150px;
+    color: white;
+    height: 25px;
+    border-radius: 3px;
+}
+.todo-delet{
+    border: none;
+    background: none;
+    font-size: 18px;
+    width: 80px;
+    height: 25px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.todo-delet img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+/* .todo-delet-2{
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+
+/* .todo-delet-2 img{
+    width: 15px;
+    height: 15px;
+} */
+.render{
+    display: flex;
+    /* margin-top: -100px; */
+    
+}
+.todo h2{
+    width: 260px;
+    margin: 10px;
+}
+.show-btn{
+    border: none;
+    margin: 10px;
+    height: 30px;
+    width: 260px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(186, 183, 179, 0.251);
+    padding: 5px 10px 5px 0;
+    border-radius: 5px;
+}
+.show-btn:hover{
+    background-color: rgba(192, 195, 195, 0.805);
+}
+/* map */
+.map{
+    width: 250px;
+    height: 20px;
+    background-color: rgb(245, 242, 242);
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    margin: 7px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.map button{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+.map div{
+    margin: 0;
+    display: none;
+}
+.map:hover div{
+    display: block;
+    background-color: rgb(212, 209, 209)
+}
+/* style textarea */
+.back-btn{
+    background: rgb(164, 162, 162);
+}
+.textarea{
+    width: 100%;
+    height: 50px;
+    margin: 0.5px;
+}
+.textarea-todo{
+    width: 270px;
+    height: 95px;
+    margin: 0;
+}
+/* modal  */
+.modal-rename{
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(152, 150, 150, 0.5);
+}
+.modal-box{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    /* z-index: 70; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+    padding: 20px 10px 0 10px;
+    /* overflow: hidden; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://www.designyourway.net/blog/wp-content/uploads/2018/12/programming-wallpaper16-800x500.jpg);
+}
+.modal-p{
+    width: 380px;
+    height: 80px;
+    font-size: 18px;
+    text-align: start;
+    background-color: #b5dff8;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px 15px 15px 15px;
+}
+.modal-box input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.modal-box button{
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #0079bf;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+}
+.modal-box button:hover{
+    background-color: #0796ea;
+}
+/* logik class */
+.displaynone{
+    display: none;
+}
+/* style arhive */
+.arhive{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid white;
+    top: 15px;
+    left: 165px;
+    background-color: #0079bf;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.arhive button{
+    border: none;
+    background: none;
+    padding: 2px 5px 2px 5px;
+    margin: 4px;
+    color: white;
+    border-radius: 5px;
+}
+.arhive button:hover{
+    background-color: #5facd9;
+}

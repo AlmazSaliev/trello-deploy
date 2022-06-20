@@ -1,0 +1,184 @@
+.big-box{
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.head:hover{
+    box-shadow: 0px 2px 15px 2px rgba(128, 128, 128, 0.389);
+    transition-duration: 350ms;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.img-logo{
+    width: 120px;
+    height: 23px;
+    cursor: pointer;
+}
+.img-arr{
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+}
+nav button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+nav button:hover{
+    color: blue;
+}
+.header-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 0;
+}
+.header-login button{
+    font-size: 18px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 150px;
+}
+.header-login div{
+    background-color: rgb(79, 79, 249);
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-login div:hover{
+    background-color: rgb(5, 5, 189);
+}
+.header-login div button{
+    color: white;
+}
+.section1{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 600px;
+}
+.section2{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sect-div1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 400px;
+    margin-left: 0;
+}
+.sect-div1-1{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sect-div1 h1{
+    font-size: 3rem;
+    line-height: 1.25;
+    font-family: "Charlie Display", sans-serif;
+    font-weight: 500;
+    margin-left: 0;
+}
+.sect-div1-1 h1{
+    font-size: 2.3rem;
+
+}
+.sect-div1 p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-left: 0;
+}
+.sect-div3 img{
+    width: 350px;
+    height: 450px;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.sect-div3-3 img{
+    width: 950px;
+    height: 660px;
+    margin: 30px;
+}
+.sect-div3-3 p{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.sect-div2 button{
+    background-color: rgb(79, 79, 249);
+    width: 160px;
+    height: 48px;
+    padding: 11px 16px 12px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.sect-div2 button:hover{
+    background-color: rgb(5, 5, 189);
+}
+.sect-div2{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sect-div2-2{
+    justify-content: center;
+    margin-top: 20px;
+}
+.sect-div2 input{
+    width: 500px;
+    height: 24px;
+    padding: 11px 11px 12px 11px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
